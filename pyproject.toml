@@ -1,0 +1,13 @@
+[project]
+name = "ComplyPro"
+version = "0.1.0"
+description = "Un programa de escritorio el cual nos brinda soluciones para el analisis de datos de archivos xlsx o csv."
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests",
+    "sqlalchemy",
+    "python-dotenv",
+    "pyodbc",
+]
